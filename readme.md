@@ -8,6 +8,13 @@ This repository contains useful AWS CloudFormation templates for various use cas
    PHP applications. This template will create a new Security Group to give envoyer
    the ability to deploy your application and do the heartbeat checks.
 
+2. Laravel Forge - [Laravel Forge](https://forge.laravel.com) is a server
+   provisioning tool for Laravel / PHP applications. This template will create a
+   new Security Group to give Laravel Forge the ability to deploy your application.
+
+3. Web Dmz - This template will create a new Security Group to make your application 
+   accessible from the internet. Only exposing the ports 80 and 443.
+
 ## Installation
 
 You can install the AWS CloudFormation templates using the AWS CLI or the AWS
