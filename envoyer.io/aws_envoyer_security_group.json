@@ -42,6 +42,13 @@
           },
           {
             "IpProtocol": "tcp",
+            "CidrIp": "134.122.14.47/32",
+            "FromPort": "22",
+            "ToPort": "22",
+            "Description": "Envoyer SSH"
+          },
+          {
+            "IpProtocol": "tcp",
             "CidrIp": "198.199.84.22/32",
             "FromPort": "443",
             "ToPort": "443",
