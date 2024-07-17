@@ -4,7 +4,7 @@
   "Parameters": {
     "VPC": {
       "Type": "AWS::EC2::VPC::Id",
-      "Description": "VPC where the Security Group will belong",
+      "Description": "VPC where the Security Group will belong"
     },
     "Name": {
       "Type": "String",
