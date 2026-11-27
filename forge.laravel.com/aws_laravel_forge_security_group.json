@@ -47,13 +47,33 @@
             "ToPort": "22",
             "Description": "Forge SSH"
           },
-          
           {
             "IpProtocol": "tcp",
             "CidrIp": "165.227.248.218/32",
             "FromPort": "22",
             "ToPort": "22",
             "Description": "Forge SSH"
+          },
+          {
+            "IpProtocol": "tcp",
+            "CidrIp": "52.54.75.189/32",
+            "FromPort": "22",
+            "ToPort": "22",
+            "Description": "Forge SSH (2026-12)"
+          },
+          {
+            "IpProtocol": "tcp",
+            "CidrIp": "52.86.8.22/32",
+            "FromPort": "22",
+            "ToPort": "22",
+            "Description": "Forge SSH (2026-12)"
+          },
+          {
+            "IpProtocol": "tcp",
+            "CidrIp": "98.84.238.200/32",
+            "FromPort": "22",
+            "ToPort": "22",
+            "Description": "Forge SSH (2026-12)"
           }
         ]
       }
